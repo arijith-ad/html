@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Registration </title>
+<style>
+body{
+background-color:lightblue;
+font-family:Arial;
+text-align:center;
+}
+h1{
+color:dark blue;
+}
+input{
+padding: 8px;
+margin:10px;
+}
+form{
+border: 2px solid black;
+padding: 20px;
+max-width: 500px;
+margin:0 auto;
+background-color:A64A#A;
+border-radius:50px;
+}
+
+button{
+padding:8px 20px;
+background-color:dark blue;
+color:white;
+}
+</style>
+</head>
+<body>
+<center><h1>REGISTRATION FORM</h1></center>
+<div class="form-box">
+<center>
+<form>
+Name:
+<input type="text" name="name" id="name">
+<br><br>
+Phone:
+<input type="int" name="phone" id="phone">
+<br><br>
+Email:
+<input type="email" name="email" id="email">
+<br><br>
+Password:
+<input type="Password" name="Password" id="Password">
+<br><br>
+Confirm password:
+<input type="Password" name="confirm" id="confirm">
+<br><br>
+Gender:
+<input type="radio" name="gender" id="male">male
+<input type="radio" name="gender" id="female">female
+<br><br>
+Country:
+<select name="country" id="country">
+<option>INDIA</option>
+<option>USA</option>
+<option>CANADA</option>
+<option>UK</option>
+</select>
+<br><br>
+Address:
+<textarea name="address" id="address"> 
+</textarea> 
+<br><br>
+<input type="checkbox" name="agree" id="agree">
+i agree to the terms and conditions
+<br><br>
+<input type="submit" value="Register" id="submit">
+<input type="reset" value="clear" id="reset">
+</form>
+<script>
+function validateform(){
+var name=document.getElementBy("name").value;
+var email=document.getElementBy("email").value;
+var phone=document.getElementBy("phone").value;
+var pass=document.getElementBy("pass").value;
+var msg=""
+if(name =="")
+{
+msg+"enter your name";
+}
+if(email =="")
+{
+msg+"enter your email";
+}
+if(phone =="")
+{
+msg+"enter your phone";
+}
+if(password =="")
+{
+msg+"enter your password";
+}
+else
+{
+     alert("Registration successful");
+     return true;
+}
+}
+for(var i=0;i<course.length;i++)
+{ 
+if(course[i].checked
+{
+selected=true
+</center>
+</body>
+</html>
